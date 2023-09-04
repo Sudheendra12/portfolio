@@ -19,7 +19,6 @@ body {
 }
 .container{
     padding: 10px 10%;
-    border: 2px solid red;
 }
 nav ul li{
     display: inline-block;
@@ -57,20 +56,18 @@ nav ul li a:hover::after{
 #about{
     padding: 80px 0;
     color: #ffffff;
-    border: 2px solid green;
 }
 .row{
-    border: 2px solid yellow;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
 }
 .about-col1 img{
-    box-shadow: 15px 15px 25px #ababab;
+    box-shadow: 1px 1px 15px 6px #ababab;
+    border-radius: 10px;
 }
 .about-col2{
     flex-basis: 50%;
-    border: 2px solid white;
 }
 .about-col2 h1{
     text-align: center;
@@ -79,7 +76,7 @@ nav ul li a:hover::after{
 .about-col2 p{
     margin-top: 20px;
     padding: 10px;
-    font-size: 16px;
+    font-size: 18px;
     color: #eaeaea;
 }
 
@@ -108,7 +105,6 @@ nav ul li a:hover::after{
     margin:0px 20px;
   }
 .part2 {
-    border: 2px solid yellow;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -124,9 +120,12 @@ nav ul li a:hover::after{
     padding: 0 20px;
     margin:0 10px;
     margin-right: 30px;
-    /* box-shadow: 10px 10px 5px 5px #ababab; */
-    /* box-shadow: 10px 10px 5px #ababab inset; */
-    border:2px solid #ababab;
+   border-radius: 10px;
+   box-shadow: 1px 1px 6px 6px #ababab;
+  }
+.part2 div:hover{
+   transform: translateY(-20px);
+    box-shadow: 1px 1px 13px 10px #ababab;
   }
   .box1 h2,.box2 h2,.box3 h2{
     text-align: center;
@@ -136,4 +135,21 @@ nav ul li a:hover::after{
   }
   .box1 p,.box2 p,.box3 p{
     padding-bottom: 20px;
+  }
+  .contact{
+    height: 60vh;
+  }
+  .contlist a{
+    display: flex;
+    color: #eaeaea;
+    text-decoration: none;
+    font-size: 28px;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .contact h1{
+    margin: 20px;
+  }
+  .contlist{
+    margin-top: 65px;
   }
