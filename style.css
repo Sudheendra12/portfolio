@@ -19,11 +19,16 @@ body {
 }
 .container{
     padding: 10px 10%;
+    
+}
+nav{
+  background-color: #3a3a3a;
+  border-radius: 10px;
 }
 nav ul li{
     display: inline-block;
     list-style: none;
-    margin: 15px 40px;
+    margin: 15px 30px;
 }
 nav ul li a{
     color: #ffffff;
@@ -61,6 +66,9 @@ nav ul li a:hover::after{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background-color: #3a3a3a;
+    height: 60vh;
+    border-radius: 50px;
 }
 .about-col1 img{
     box-shadow: 1px 1px 15px 6px #ababab;
@@ -72,12 +80,28 @@ nav ul li a:hover::after{
 .about-col2 h1{
     text-align: center;
     font-size: xx-large;
+    margin-top: 50px;
 }
 .about-col2 p{
     margin-top: 20px;
     padding: 10px;
     font-size: 18px;
     color: #eaeaea;
+}
+.buttons {
+  padding: 50px 0;
+  margin-left: 240px;
+}
+.btn {
+  padding: 12px;
+  background-color: #3a3a3a;
+  color: #ff004f;
+  border: 2px solid white;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 20px;
+  text-decoration: none;
+  text-align: center;
 }
 
 .part1 {
@@ -87,7 +111,10 @@ nav ul li a:hover::after{
     align-items: center;
     margin: 0px;
     border-radius: 10px;
-    height: 80vh;
+    height: 50vh;
+    background-color: #3a3a3a;
+    
+    border-radius: 50px;
     /* font-size: xx-large; */
   }
   .part1 h2 {
@@ -112,13 +139,20 @@ nav ul li a:hover::after{
     margin: 0px;
     height: 50vh;
   }
-  .container h1{
+  .see{
+    margin-top: 80px;
+    background-color: #3a3a3a;
+    height: 70vh;
+    border-radius: 50px;
+  }
+  .see h1{
+    padding-top: 60px;
     text-align: center;
     font-size: 30px;
   }
   .box1,.box2,.box3{
     padding: 0 20px;
-    margin:0 10px;
+    margin:0 30px;
     margin-right: 30px;
    border-radius: 10px;
    box-shadow: 1px 1px 6px 6px #ababab;
@@ -136,20 +170,45 @@ nav ul li a:hover::after{
   .box1 p,.box2 p,.box3 p{
     padding-bottom: 20px;
   }
-  .contact{
+  .nine{
+    background-color: #3a3a3a;
     height: 60vh;
+    border-radius: 50px;
+    margin-top: 80px;
+
   }
-  .contlist a{
+  .nine h1{
+    padding-top: 40px;
+  }
+  .contlist {
     display: flex;
-    color: #eaeaea;
+    flex-direction: column;
+    margin-top: 70px;
+    
+  }
+  .contlist a {
     text-decoration: none;
-    font-size: 28px;
-    justify-content: center;
-    margin-top: 25px;
+    color: white;
+    margin: 10px 0;
+    margin-left: 530px;
+    font-size: 25px;
+    display: inline;
   }
-  .contact h1{
+  .contlist a i{
+    margin: 0 10px;
+  }
+
+.contlist a:hover{
+  color: #ff004f;
+}
+  .nine h1{
     margin: 20px;
+    text-align: center;
   }
-  .contlist{
-    margin-top: 65px;
+  footer{
+    text-align: right;
+    margin-top: 40px;
+    margin-right: 80px;
+    color: #ff004f;
   }
+  
